@@ -9,7 +9,7 @@ except ImportError, e:
     djl_seperator()
     djl_print("Please install facepy. If you don't have pip, install that, too. Then type this into your terminal:")
     djl_print(color_string(HEADER, "$ sudo pip install facepy"))
-    if not confirm_yes_or_no("Install pip now?: "):
+    if not confirm_yes_or_no("Find out more about pip?: "):
         webbrowser.open("https://pypi.python.org/pypi/pip")
     exit()
 
