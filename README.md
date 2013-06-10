@@ -1,8 +1,9 @@
-###What it is
+#fb_bday_responder
 
-An interactive Python script that responds to birthday greets on Facebook.
+###What It Is
 
-For the friend that cares enough about her friends to respond, but not enough to spend her birthday doing it.
+An interactive Python script that responds to birthday greetings on Facebook 
+for the friend that cares enough about her friends to respond, but not enough to spend her birthday doing it.
 
 ###Dependencies
 
