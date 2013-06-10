@@ -2,8 +2,7 @@
 
 ###What It Is
 
-An interactive Python script that responds to birthday greetings on Facebook 
-for the friend that cares enough about her friends to respond, but not enough to spend her birthday doing it.
+An interactive Python script that responds to birthday greetings on Facebook for when you care enough about your friends to respond, but not enough to spend your birthday doing it.
 
 Written in Python 2.7.2.
 
