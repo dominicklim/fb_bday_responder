@@ -20,7 +20,7 @@ class PostProcessor(object):
                              "What's for lunch?",
                              "Why do they call it facebook anyway?"]
         self.loading_msg = self.loading_msgs[0]
-    
+
     def get_posts(self):
         while self.should_get_more_feeds:
             if self.should_animate_getting_posts:
@@ -49,7 +49,7 @@ class PostProcessor(object):
 
             if self.is_msg_generic(msg): self.generic_posts.append(post)
             else: self.special_posts.append(post)
-        
+
         feed_link = feeds["paging"]["next"].replace("https://graph.facebook.com/", "")
         return feed_link
 

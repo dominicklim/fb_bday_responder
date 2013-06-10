@@ -3,8 +3,7 @@
 from djl_ui import *
 from djl_input import *
 from djl_post_responder import *
-from djl_templater import *
-from djl_processor import *
+from djl_post_processor import *
 
 djl_seperator()
 print_exit_tip()
