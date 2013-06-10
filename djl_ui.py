@@ -1,14 +1,9 @@
 from djl_colors import *
 import sys
 
-exit_msg = "** exit **"
-
 def djl_print(string): print break_string_at_column(string, 80)
 
-def djl_input(msg):
-    user_input = raw_input(break_string_at_column(msg, 80))
-    if (user_input == exit_msg): return exit()
-    return user_input
+def djl_input(msg): return raw_input(break_string_at_column(msg, 80))
 
 def seperator(columns): return "-" * columns
 
@@ -70,7 +65,7 @@ def write(string):
     sys.stdout.flush()
 
 def print_exit_tip():
-    djl_print(color_string(HEADER, "Type %s to exit this script." % exit_msg))
+    djl_print(color_string(HEADER, "Press ctrl+c to exit any time."))
 
 def print_begin_responding():
     djl_print(color_string(HEADER, "We will now begin responding to posts."))
